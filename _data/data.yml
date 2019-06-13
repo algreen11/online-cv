@@ -3,198 +3,180 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False #True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False #True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Alex Thomas
+    tagline: Software Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: alexjthomas@me.com
+    phone: 925 482 4810
+    # website: blog.webjeda.com #do not add http://
+    linkedin: alexjulianthomas
+    github: algreen11
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
+    # languages: # DONT WANT THIS!
+    #   - idiom: English
+    #     level: Native
 
-      - idiom: French
-        level: Professional
+    #   - idiom: French
+    #     level: Professional
 
-      - idiom: Spanish
-        level: Professional
+    #   - idiom: Spanish
+    #     level: Professional
 
     interests:
-      - item: Climbing
+      - item: Skiing
         link:
 
-      - item: Snowboarding
+      - item: Basketball
         link:
 
-      - item: Cooking
+      - item: Settlers of Catan
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I'm a currently a software engineer working at Wayfair in Boston, MA. 
+      I have had 3 previous software engineering internships at Epic, 
+      Easypost, and Hoxton Analytics. While interning at these incredible companies, 
+      I have learned how to contribute code to production and used a variety of
+      different programing languages. 
 
-      Second paragraph if required.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BA in Computer Science and Economics
+      university: Colgate University
+      time: 2015 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        I was a double major at Colgate in both CS and Economics. I was fortunate 
+        enough to have recieved a variety of honors and achievements during my time
+        at Colgate.
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - High Honors in Computer Science
+          - Magna Cum Laude
+          - Dean's List Award Recipient Each Semester
+          - Omnicron Delta Epsilon Honor's Society
+          - Phi Eta Sigma Honor's Society
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer
+      time: Present
+      company: Wayfair, Boston
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        I start working at Wayfair in August.
 
-          - Bullet point
-          - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Software Development Intern
+      time: Summer 2018
+      company: Epic, Wisconsin
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        I worked on the Tapestry team at Epic and integrated Apple Wallet into Epic's
+        patient-facing mobile app MyChart. 
 
-          - Bullet point
-          - Bullet point
+          - Revamped the handling and display of digital insurance cards by creating 
+          an intuitive display that minimizes the amount of user input required for 
+          full access of information
+          - Managed server development by creating a new web service that properly 
+          signs and generates .pkpass files in C#
+          - Performed client side development by incorporating the web service into 
+          the existing application’s framework and completely overhauling the existing 
+          UI in Objective-C/Swift
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Software Engineering Intern
+      time: Summer 2017
+      company: Easypost, San Fransisco 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        I worked on a variety of different smaller projects at Easypost.
 
-          - Bullet point
-          - Bullet point
+          - Added a new endpoint to all 6 (Python, Java, PHP, Ruby, Node, C#) of the 
+          different language client libraries by changing each client library to send 
+          data in JSON for the specific endpoint.
+          - Implemented a Python sales tool that runs customer shipping data CSV’s 
+          through the Rating API and returns a new CSV with EasyPost rates to help bring 
+          in new customers by showing how much money could be saved
+          - Fully developed a faster, simpler Beanstalk console Python Flask app for 
+          internal use to monitor the status of every server used in production and testing
+
+    - role: Software Engineering Intern
+      time: Fall 2017
+      company: Hoxton Analytics, London
+      details: |
+        I worked on expanding the UI and scope of the customer facing dashboard at
+        Hoxton Analytics. I built a front-end floor-plan view using EmberJS to cleanly
+        aggregate customer’s retail data.
+
 
 projects:
-    title: Projects
+    title: Projects and Academic Work
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I completed a high honors senior thesis on Algorithmic Trading. Additionally, I have explored a vareity of different types of independent projects throughout my career.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Examinations of Stock Trading Algorithms and Applications of Twitter Sentiment for Trading Strategies
+        link: "https://commons.colgate.edu/cgi/viewcontent.cgi?article=1022&context=theses"
+        tagline: "My thesis examines the effectiviness of different existing algorithmic trading techniques and also explores a unique machine learning trading strategy that uses Twitter sentiment data"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Blackjack Simulator
+        link: "https://github.com/algreen11/BlackjackSimulator"
+        tagline: "A program that demonstrates the effectiviness of counting cards in blackjack"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Web Scraping Project
+        link: "https://github.com/algreen11/WebScrape"
+        tagline: "Alert program that use Twilio to text updates of online shoe deals"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python & Flask 
+        level: 100%
+
+      - name: Java
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Swift/Objective-C
+        level: 86%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: ASP.NET/C#
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: PHP
+        level: 70%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Ruby
+        level: 50%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
