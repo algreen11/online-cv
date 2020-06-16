@@ -76,8 +76,16 @@ experiences:
       time: Present
       company: Wayfair, Boston
       details: |
-        I have been working on the Batch Notifications team
+        I am a member of the Batch Notifications team. 
+        We are responsible for creating and sending hundreds of millions of personalized email and push notifications each day.
 
+          - Member of the Batch Notifications team, responsible for all systems related to building and sending hundreds of millions of emails and push notifications per day, driving billions of dollars in yearly revenue 
+          - Active member of the 24/7 on-call rotation, handling any system health issues and coordinating with the business
+          - Created a Dropwizard REST application deployed with Docker and Kubernetes that uses Presto to rapidly retrieve customer level data from Hive for use in final email QA checks to ensure correctness before millions of sends 
+          - Enhanced business decision making via implementation of a real time customer suppression by creating a Java client that writes customer suppression windows to Aerospike, creating large read performance improvements
+          - Revamped tooling using ReactJS, modernizing and optimizing notification creation workflows
+          - Became the team’s expert in creating and utilizing Scribe events, which are produced to Kafka and then inserted into Hive tables to record historical data throughout our application stack
+          - Build Datadog Alerts to monitor the system health leveraging SQL and Influxdb
 
     - role: Software Development Intern
       time: Summer 2018
