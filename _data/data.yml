@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: alexjthomas@me.com
-    phone: 925 482 4810
+    # phone: 925 482 4810
     # website: blog.webjeda.com #do not add http://
     linkedin: alexjulianthomas
     github: algreen11
@@ -47,12 +47,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a currently a software engineer working at Wayfair in Boston, MA. 
-      I have had 3 previous software engineering internships at Epic, 
-      Easypost, and Hoxton Analytics. While interning at these incredible companies, 
-      I have learned how to contribute code to production and used a variety of
-      different programing languages. 
-
+      I'm a currently a software engineer working at Wayfair in Boston, MA. I am a member of the
+      Batch Notifications team, which is responsible for building and sending hundreds of millions
+      of emails and push notifications each day, driving billions of dollars in yearly revenue.
+      During my time at Wayfair I have gained valuable experience with Java and Big Data technologies including Spark and Hive,
+      as well as full stack web development.
+      Additionally, I have had 3 previous software engineering internships at Epic, Easypost, and Hoxton Analytics.
+      While interning at these incredible companies, I learned how to contribute code to production while using 
+      a variety of different programing languages.
 
 education:
     - degree: BA in Computer Science and Economics
@@ -63,7 +65,7 @@ education:
         enough to have recieved a variety of honors and achievements during my time
         at Colgate.
 
-          - High Honors in Computer Science
+          - Sole Recipient of High Honors in Computer Science
           - Magna Cum Laude
           - Dean's List Award Recipient Each Semester
           - Omnicron Delta Epsilon Honor's Society
@@ -74,7 +76,7 @@ experiences:
       time: Present
       company: Wayfair, Boston
       details: |
-        I start working at Wayfair in August.
+        I have been working on the Batch Notifications team
 
 
     - role: Software Development Intern
@@ -163,20 +165,20 @@ skills:
       - name: Python & Flask 
         level: 100%
 
+      - name: PHP
+        level: 100%
+
       - name: Java
-        level: 98%
+        level: 100%
+
+      - name: ReactJS
+        level: 95%
 
       - name: Swift/Objective-C
-        level: 86%
+        level: 80%
 
       - name: ASP.NET/C#
-        level: 85%
-
-      - name: PHP
         level: 70%
-
-      - name: Ruby
-        level: 50%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
