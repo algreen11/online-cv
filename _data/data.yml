@@ -53,8 +53,6 @@ career-profile:
       During my time at Wayfair I have gained valuable experience with Java and Big Data technologies including Spark and Hive,
       as well as full stack web development.
       Additionally, I have had 3 previous software engineering internships at Epic, Easypost, and Hoxton Analytics.
-      While interning at these incredible companies, I learned how to contribute code to production while using 
-      a variety of different programing languages.
 
 education:
     - degree: BA in Computer Science and Economics
@@ -79,7 +77,6 @@ experiences:
         I am a member of the Batch Notifications team. 
         We are responsible for creating and sending hundreds of millions of personalized email and push notifications each day.
 
-          - Member of the Batch Notifications team, responsible for all systems related to building and sending hundreds of millions of emails and push notifications per day, driving billions of dollars in yearly revenue 
           - Active member of the 24/7 on-call rotation, handling any system health issues and coordinating with the business
           - Created a Dropwizard REST application deployed with Docker and Kubernetes that uses Presto to rapidly retrieve customer level data from Hive for use in final email QA checks to ensure correctness before millions of sends 
           - Enhanced business decision making via implementation of a real time customer suppression by creating a Java client that writes customer suppression windows to Aerospike, creating large read performance improvements
