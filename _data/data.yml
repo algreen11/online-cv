@@ -47,11 +47,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a currently a software engineer working at Wayfair in Boston, MA. I am a member of the
-      Batch Notifications team, which is responsible for building and sending hundreds of millions
-      of emails and push notifications each day, driving billions of dollars in yearly revenue.
-      During my time at Wayfair I have gained valuable experience with Java and Big Data technologies including Spark and Hive,
-      as well as full stack web development.
+      I'm a currently a software engineer working at Wayfair in Boston, MA as a member of the
+      Batch Notifications team. During my time at Wayfair I have gained valuable experience with Java and Big Data 
+      technologies including Spark and Hive, as well as full stack web development.
       Additionally, I have had 3 previous software engineering internships at Epic, Easypost, and Hoxton Analytics.
 
 education:
@@ -71,18 +69,21 @@ education:
 
 experiences:
     - role: Software Engineer
-      time: Present
+      time: Summer 2019 - Present
       company: Wayfair, Boston
       details: |
         I am a member of the Batch Notifications team. 
         We are responsible for creating and sending hundreds of millions of personalized email and push notifications each day.
 
-          - Active member of the 24/7 on-call rotation, handling any system health issues and coordinating with the business
-          - Created a Dropwizard REST application deployed with Docker and Kubernetes that uses Presto to rapidly retrieve customer level data from Hive for use in final email QA checks to ensure correctness before millions of sends 
-          - Enhanced business decision making via implementation of a real time customer suppression by creating a Java client that writes customer suppression windows to Aerospike, creating large read performance improvements
-          - Revamped tooling using ReactJS, modernizing and optimizing notification creation workflows
-          - Became the team’s expert in creating and utilizing Scribe events, which are produced to Kafka and then inserted into Hive tables to record historical data throughout our application stack
-          - Build Datadog Alerts to monitor the system health leveraging SQL and Influxdb
+          - Contributing multi-point PRs to the team’s Spark applications written in Java (ListBuild, Personalization, Scheduler)
+          - Enhancing business decision making via implementation of a real-time customer suppression by creating a Java
+          client that writes customer suppression windows to Aerospike, creating large read performance improvements
+          -  Develop a Java Dropwizard REST application leveraging Docker and Kubernetes for deployment that uses Presto to
+          rapidly retrieve customer level data from Hive for use in final email QA checks before every notification send
+          - Revamping tooling using ReactJS with MVC design pattern, modernizing and optimizing operations workflows
+          - As a member of the 24/7 on-call rotation, responsible for fixing system health issues, solving application errors and
+          coordinating with the business stakeholders
+          - Build Datadog Alerts to monitor system health utilizing Elasticsearch, SQL, and Influxdb
 
     - role: Software Development Intern
       time: Summer 2018
@@ -127,7 +128,7 @@ experiences:
 projects:
     title: Projects and Academic Work
     intro: >
-      I completed a high honors senior thesis on Algorithmic Trading. Additionally, I have explored a vareity of different types of independent projects throughout my career.
+      I completed a high honors senior thesis on Algorithmic Trading. Additionally, I have explored a vareity of different types of independent projects.
 
     assignments:
       - title: Examinations of Stock Trading Algorithms and Applications of Twitter Sentiment for Trading Strategies
